@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination:  /home/ecs2-user/express-app
+    destination:  /home/ec2-user/github-actions-test
 hooks:
   AplicationStop:
     - location: scripts/application_stop.sh
